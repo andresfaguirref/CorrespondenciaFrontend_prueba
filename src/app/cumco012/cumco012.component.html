@@ -1,0 +1,26 @@
+<div class="ui-fluid">
+<p-fieldset legend="Configurar Recorridos de Reparto de Documentos Fisicos">
+  <p>Organismo a Configurar</p>
+  <div class="ui-g">
+      <div class="ui-g-12">
+        <div class="ui-inputgroup">
+          <span class="ui-inputgroup-addon"><i class="pi pi-search" style="line-height: 1;"></i></span>
+          <p-autoComplete [dropdown]="true" [required]="true"></p-autoComplete>
+          <p-button icon="pi pi-times"></p-button>
+        </div>
+    </div>
+  </div>
+</p-fieldset>
+</div>
+
+<div class="ui-g">
+    <div class="ui-g-12">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"><i class="pi pi-search" ></i></span>
+            <span class="ui-inputgroup-addon"><i class="pi pi-shopping-cart" style="line-height: 1.25;"></i></span>
+            <input type="text" pInputText placeholder="Price">
+            <span class="ui-inputgroup-addon">$</span>
+            <span class="ui-inputgroup-addon">.00</span>
+        </div>
+    </div>
+</div>

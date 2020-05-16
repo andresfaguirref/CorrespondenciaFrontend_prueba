@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CUMCO001Module } from './cumco001/cumco001.module';
+import { CUMCO012Module } from './cumco012/cumco012.module';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { CUMCO001Module } from './cumco001/cumco001.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CUMCO001Module
+    CUMCO001Module,
+    CUMCO012Module
   ],
   providers: [],
   bootstrap: [AppComponent]
