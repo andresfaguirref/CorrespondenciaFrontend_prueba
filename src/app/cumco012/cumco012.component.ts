@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CUMCO012Component implements OnInit {
 
-  constructor() { }
+    text: string;
+    results: any[];
 
-  ngOnInit(): void {
-  }
+    constructor() {}
+    ngOnInit() {
+      this.results = [
+        'a','b','c'
+      ]
+    }
+    onClickBorrarAutoComplete() {
+      this.text = '';
+    }
 
 }

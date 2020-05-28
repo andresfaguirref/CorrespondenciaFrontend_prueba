@@ -24,3 +24,12 @@
         </div>
     </div>
 </div>
+
+<div class="ui-g-5 ui-sm-12">
+<label>Ciudades</label>
+<p-autoComplete placeholder="Ingrese una ciudad" [minLength]="1" field="nombre"
+  [(ngModel)]="text"
+[suggestions]="results" [dropdown]="true">
+</p-autoComplete>
+<p-button icon="pi pi-times"></p-button>
+</div>
